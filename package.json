@@ -1,0 +1,47 @@
+{
+  "name": "egg-view-local-art",
+  "version": "1.0.0",
+  "description": "local art-template view for egg-vuecli-webpack-dev-server",
+  "eggPlugin": {
+    "name": "localart",
+    "dependencies": [ "webpackVueDevServer" ],
+    "env": ["local"]
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "local-art-view"
+  ],
+  "dependencies": {
+    "art-template": "^4.12.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-egg": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "files": [
+    "config",
+    "app.js",
+    "lib"
+  ],
+  "ci": {
+    "version": "6, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neverthanmore/egg-view-local-art.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neverthanmore/egg-view-local-art/issues"
+  },
+  "homepage": "https://github.com/neverthanmore/egg-view-local-art#readme",
+  "author": "gbbacy",
+  "license": "MIT"
+}
