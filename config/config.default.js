@@ -20,8 +20,11 @@ module.exports = appInfo => {
       cache: false,
       minimize: true,
       compileDebug: false,
-      extname: '.art',
+      extname: '.html',
       ignore: [],
     },
+    localart: {
+      ignorePath: '' // 忽略的路径
+    }
   };
 };
