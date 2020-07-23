@@ -19,7 +19,7 @@
     "art-template": "^4.12.2"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^7.5.0",
     "eslint-config-egg": "^4.2.0"
   },
   "engines": {
