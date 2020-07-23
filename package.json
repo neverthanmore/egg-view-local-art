@@ -1,6 +1,6 @@
 {
   "name": "egg-view-local-art",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "local art-template view for egg-vuecli-webpack-dev-server",
   "eggPlugin": {
     "name": "localart",
