@@ -4,8 +4,10 @@
   "description": "local art-template view for egg-vuecli-webpack-dev-server",
   "eggPlugin": {
     "name": "localart",
-    "dependencies": [ "webpackVueDevServer" ],
-    "env": ["local"]
+    "dependencies": [
+      "webpackVueDevServer"
+    ],
+    "env": []
   },
   "keywords": [
     "egg",
